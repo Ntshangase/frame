@@ -8,7 +8,7 @@
  */
 
 export default (props) => {
-    console.log(props)
+    console.log(props)  // even when i remove this there is still a console log in the browser.
     
     document.getElementById('name').innerHTML = props.onServerResult.name
    
@@ -17,7 +17,7 @@ export default (props) => {
 export const onServer =  (path, req) => {
     
     console.log(path)
-    return {name: 'Rawk'}
+    return {name: 'Rawk'} // when i change the name i'm still getting Rawk?, I must be on the wrong file.
 }
 
 
