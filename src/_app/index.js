@@ -17,7 +17,7 @@ export default (props) => {
 export const onServer =  (path, req) => {
     
     console.log(path)
-    return {name: 'Rawk'} // when i change the name i'm still getting Rawk?, I must be on the wrong file.
+    return {name: 'Different'} // when i change the name i'm still getting Rawk?, I must be on the wrong file.
 }
 
 
